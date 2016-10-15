@@ -1,0 +1,239 @@
+/*
+#9E42B5 PURPLE
+#00CED1 - turquoise
+font-family: 'Dosis', sans-serif; - Main Font
+font-family: 'Pacifico', cursive; - Logo @font-face {
+    */
+
+body{
+  background: url(../images/background.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+h1 {
+font-family: 'Pacifico', cursive;
+font-size: 70px;
+margin-left: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+p {
+  font-family: 'Dosis', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hamburger-wrapper {
+  display: none;
+}
+
+nav {
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li a {
+  text-decoration: none;
+  /*color: #00CED1;*/
+  color: #9E42B5;
+  padding-left: 20px;
+  padding-right: 20px;
+  /*border: 2px solid  #00CED1;*/
+  border: 2px solid #9E42B5;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+.main-image {
+  display: flex;
+  background: url(../images/french.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  min-height: 500px;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.articles {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  justify-content: center;
+}
+
+.slogan {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  font-size: 40px;
+  font-style: italic;
+
+}
+
+.suggest {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 250px;
+  background-color: rgba(214, 211, 211, 0.7);
+  padding: 30px;
+  margin-left: 50px;
+}
+
+.suggest p {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+button {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: 'Pacifico', cursive;
+  border: 2px solid black;
+  background-color: transparent;
+}
+
+.teal {
+  border: 2px solid #00CED1;
+  background-color: #00CED1;
+  color: white;
+}
+
+.purple {
+  border: 2px solid #9E42B5;
+  background-color: #9E42B5;
+  color: white;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+footer .logo h1 {
+  font-size: 40px;
+}
+
+i {
+  color: black;
+  font-size: 50px;
+  padding-left: 30px;
+}
+
+nav li a:hover {
+  background-color: #9E42B5;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid  #9E42B5;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+/* SLIDEY CONTACT US BUTTON
+.contact {
+  background-color: rgba(0,0,0,0.5);
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -49%;
+  transition:all 1s;
+
+.contact.open {
+  right: 0;
+  transition:all 1s;
+}
+*/
+
+/*FOOD PAGES CSS*/
+.food-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.post-wrapper {
+  padding: 10 60 60 60;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(158, 66, 181, 0.3);
+  border-radius: 10px;
+}
+
+.food-image{
+  width: 400px;
+  height: 280px;
+}
+
+ .food-image img {
+  width: 100%;
+  height: auto;
+}
+
+h2{
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.resturant-name{
+    text-align: center;
+}
+
+button .post-wrapper{
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+  border: 2px solid black;
+  background-color: transparent;
+}
+
+.button-done {
+  display: flex;
+  justify-content: center;
+}
