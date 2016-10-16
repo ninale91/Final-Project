@@ -160,7 +160,7 @@ nav li a:hover {
   margin-left: 10px;
   font-size: 30px;
 }
-/*NEW ADDED http://callmenick.com/post/slide-down-menu-with-jquery-and-css*/
+/*HOVER MENU http://callmenick.com/post/slide-down-menu-with-jquery-and-css*/
 nav ul {
     list-style-type:none;
     margin:0;
@@ -194,10 +194,11 @@ ul.sub-menu {
     display:none;
 }
 
-.dropdown {
-display: flex;
-flex-direction: column;
+.sub-menu {
+  display: flex;
+  flex-direction: column;
  }
+
 /* SLIDEY CONTACT US BUTTON
 .contact {
   background-color: rgba(0,0,0,0.5);
