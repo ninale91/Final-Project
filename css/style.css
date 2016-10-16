@@ -445,14 +445,37 @@ button .post-wrapper{
   }
 
   button {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
     width: 100%;
     font-size: 15px;
-    font-family: 'Pacifico', cursive;
-    border: 2px solid black;
     background-color: transparent;
   }
-
   footer {
     padding-top: 0px;
+  }
+
+  .suggest-panel {
+    background-color: rgba(0,0,0,0.9);
+    width: 80%;
+    height: 300px;
+    right: -90%;
+    transition:all 1s;
+  }
+
+  .suggest-panel div{
+    padding-bottom: 10px;
+  }
+  .suggest-panel h2 {
+    font-size: 20px;
+  }
+  label {
+    font-size: 15px;
+  }
+
+  input {
+    width: 90px;
+    height: 20px;
   }
 }
