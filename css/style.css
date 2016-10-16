@@ -268,7 +268,7 @@ nav li a:hover {
 .suggest-panel {
   background-color: rgba(0,0,0,0.9);
   width: 40%;
-  height: 50%;
+  height: 500px;
   position: absolute;
   top: 150px;
   right: -50%;
@@ -286,9 +286,13 @@ nav li a:hover {
   transition:all 1s;
 }
 
-div .suggest-panel {
-  padding-bottom: 30px;
+.suggest-panel div{
+  padding-bottom: 20px;
+}
 
+.submit {
+  display: flex;
+  justify-content: space-around;
 }
 
 /*FOOD PAGES CSS*/
