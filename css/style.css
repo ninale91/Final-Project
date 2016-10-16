@@ -410,6 +410,8 @@ button .post-wrapper{
 
   #hamburger-button {
     color: #9E42B5;
+    font-size: 40px;
+    margin-right: 20px;
   }
 
   .suggest {
@@ -429,7 +431,7 @@ button .post-wrapper{
 
   h1 {
   font-family: 'Pacifico', cursive;
-  font-size: 50px;
+  font-size: 55px;
   margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -478,4 +480,14 @@ button .post-wrapper{
     width: 90px;
     height: 20px;
   }
+
+  nav {
+    display: none;
+  }
+
+  .hamburger-wrapper {
+  	display: flex;
+  	align-items: center;
+  }
+
 }

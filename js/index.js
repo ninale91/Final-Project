@@ -5,6 +5,7 @@ function start(){
     $('.button-done').click(completedFood);
     $('.suggest-button').click(slideMenuToggle);
     $('.contact-button').click(fatAlert);
+    $('#hamburger-button').click(openResponsiveMenu);
 }
 
 function openMenu() {
@@ -24,4 +25,8 @@ function slideMenuToggle(){
 
 function fatAlert(){
   alert('No need to contact me, I am too busy eating. Make a suggestion instead!');
+}
+
+function openResponsiveMenu() {
+  $('nav').slideToggle();
 }
