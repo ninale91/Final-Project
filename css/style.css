@@ -313,14 +313,14 @@ ul.sub-menu {
 }
 
 .food-image {
-  width: 400px;
+  width: 100%;
   height: 280px;
   display: flex;
   justify-content: space-around;
 }
 
  .food-image img {
-  width: 100%;
+  width: 400px;
   height: auto;
 
 }
