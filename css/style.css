@@ -251,9 +251,9 @@ nav li a:hover {
 .suggest-panel {
   background-color: rgba(0,0,0,0.8);
   width: 50%;
-  height: 50%;
+  height: 70%;
   position: absolute;
-  top: 15%;
+  top: 150px;
   right: -50%;
   transition:all 1s;
 }
