@@ -490,27 +490,17 @@ button .post-wrapper{
     flex-direction: column;
   }
 
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
   .hamburger-wrapper {
   	display: flex;
   	align-items: center;
   }
 
   nav li {
-    font-size: 20px;
-    min-width: 100%;
-  }
-
-  nav li:hover {
-    background-color: #9E42B5;
-    color: white;
-    font-size: 20px;
-    min-width: 100%;
-  }
-  }
-
-  nav li a:hover {
-    background-color: #9E42B5;
-    color: white;
     font-size: 20px;
     min-width: 100%;
   }
@@ -536,10 +526,10 @@ button .post-wrapper{
     min-width: 100%;
   }
 
-    .sub-menu li a:hover {
-      background-color: #9E42B5;
-      color: black;
-      font-size: 20px;
-      min-width: 100%;
-    }
+  .responsive-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
 }
