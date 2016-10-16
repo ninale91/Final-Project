@@ -159,6 +159,7 @@ nav li a:hover {
   border-radius: 10px;
   margin-left: 10px;
   font-size: 30px;
+  min-width: 150px;
 }
 /*HOVER MENU http://callmenick.com/post/slide-down-menu-with-jquery-and-css*/
 nav ul {
@@ -174,7 +175,7 @@ nav ul li {
 /* sub navigation */
 nav li ul {
     position:absolute;
-    left:0;
+    left:20;
     top:40px; /* make this equal to the line-height of the links (specified below) */
     width:200px;
 }
@@ -198,6 +199,41 @@ ul.sub-menu {
   display: flex;
   flex-direction: column;
  }
+
+.sub-menu li {
+  background-color: #9E42B5;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid  #9E42B5;
+  margin-left: 10px;
+  font-size: 30px;
+  min-width: 170px;
+}
+
+.sub-menu li a {
+  background-color: #9E42B5;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid  #9E42B5;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  min-width: 150px;
+}
+
+  .sub-menu li a:hover {
+    background-color: rgba(158, 66, 181, .8);
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid  #9E42B5;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+    min-width: 150px;
+  }
 
 /* SLIDEY CONTACT US BUTTON
 .contact {
