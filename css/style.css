@@ -85,7 +85,6 @@ ul {
   padding-top: 30px;
   font-size: 40px;
   font-style: italic;
-
 }
 
 .suggest {
@@ -408,3 +407,52 @@ button .post-wrapper{
   .desktop-nav {
     display: none;
   }
+
+  #hamburger-button {
+    color: #9E42B5;
+  }
+
+  .suggest {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(214, 211, 211, 0.7);
+    margin-left: 0px;
+  }
+
+  .suggest p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+  .slogan {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+  }
+
+  button {
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Pacifico', cursive;
+    border: 2px solid black;
+    background-color: transparent;
+  }
+
+  footer {
+    padding-top: 0px;
+  }
+}
