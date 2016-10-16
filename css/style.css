@@ -485,9 +485,61 @@ button .post-wrapper{
     display: none;
   }
 
+  ul{
+    display: flex;
+    flex-direction: column;
+  }
+
   .hamburger-wrapper {
   	display: flex;
   	align-items: center;
   }
 
+  nav li {
+    font-size: 20px;
+    min-width: 100%;
+  }
+
+  nav li:hover {
+    background-color: #9E42B5;
+    color: white;
+    font-size: 20px;
+    min-width: 100%;
+  }
+  }
+
+  nav li a:hover {
+    background-color: #9E42B5;
+    color: white;
+    font-size: 20px;
+    min-width: 100%;
+  }
+
+  .sub-menu {
+    display: flex;
+    flex-direction: column;
+   }
+
+  .sub-menu li {
+    background-color: #9E42B5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid  #9E42B5;
+    margin-left: 10px;
+    font-size: 30px;
+    min-width: 170px;
+  }
+
+  .sub-menu li a{
+    font-size: 20px;
+    min-width: 100%;
+  }
+
+    .sub-menu li a:hover {
+      background-color: #9E42B5;
+      color: black;
+      font-size: 20px;
+      min-width: 100%;
+    }
 }
