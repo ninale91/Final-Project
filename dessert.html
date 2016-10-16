@@ -1,7 +1,7 @@
 <!DOCTYPE>
 <html>
   <head>
-    <title>Feast</title>
+    <title>Dessert-Feast</title>
     <script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
     <script src='js/index.js'></script>
     <link href='css/style.css' rel='stylesheet'>
@@ -40,25 +40,54 @@
     </header>
     <!-- SUGGEST BOX -->
     <div class='suggest-panel'>
+        <div>
+          <h2>I welcome all suggestions with an open mouth</h2>
+        </div>
         <div class='suggest-form'>
           <form class='suggestion-form' action='' enctype='multipart/form-data' method='POST'>
-                <label>
-                  First Name
-                  <input id='first_name' type='text' placeholder='First Name' name='first_name'/>
-                  <span class='error-msg'> - First name invalid</span>
-                </label>
-                <label>
-                  Last Name
-                  <input id='last_name' type='text' placeholder='Last Name' name='last_name'/>
-                  <span class='error-msg'> - Last name invalid</span>
-                </label>
-                <label>
-                  Age
-                  <input id='age' type='text' placeholder="Age" name='age'/>
-                </label>
-                <input name='submit' type='submit'/>
+            <div>
+              <label>
+                First Name:
+                <input id='first_name' type='text' placeholder='First Name' name='first_name'/>
+              </label>
+              <label>
+                Last Name:
+                <input id='last_name' type='text' placeholder='Last Name' name='last_name'/>
+              </label>
+            </div>
+            <div>
+              <label>
+                Resturant Name:
+                <input id='rest-name' type='text' placeholder="Resturant" name='resturant'/>
+              </label>
+            </div>
+            <div>
+              <label>
+                Location:
+                <input id='location' type='text' placeholder="Location" name='location'/>
+              </label>
+            </div>
+            <div>
+              <label>
+                Category:
+                <select>
+                  <option value="breakfast">Breakfast</option>
+                  <option value="brunch">Brunch</option>
+                  <option value="lunch">Lunch</option>
+                  <option value="dinner">Dinner</option>
+                  <option value="dessert">Desset</option>
+                </select>
+              </label>
+            </div>
+            <div>
+              <input name='submit' type='submit'/>
+            </div>
           </form>
       </div>
+    </div>
+    <!-- TITLE -->
+    <div class='title'>
+      <h1>Dessert</h1>
     </div>
     <!-- FOOD POSTS -->
     <div class='food-content'>
@@ -84,6 +113,38 @@
           </div>
           <div class='food-image'>
             <img src='images/macarons.jpg' alt="Cake">
+          </div>
+          <div class='smashed-it'>
+            <h1>SMASHED IT!</h1>
+          </div>
+          <div class='resturant-location'>
+            <h2>Location</h2>
+          </div>
+          <div class='button-done'><button class='purple'>Demolished</button></div>
+        </div>
+      </div>
+      <div class='wrapper'>
+        <div class='post-wrapper'>
+          <div class='resturant-name'>
+            <h2>Name</h2>
+          </div>
+          <div class='food-image'>
+            <img src='images/french.jpg' alt="Cake">
+          </div>
+          <div class='smashed-it'>
+            <h1>SMASHED IT!</h1>
+          </div>
+          <div class='resturant-location'>
+            <h2>Location</h2>
+          </div>
+          <div class='button-done'><button class='purple'>Demolished</button></div>
+        </div>
+        <div class='post-wrapper'>
+          <div class='resturant-name'>
+            <h2>Name</h2>
+          </div>
+          <div class='food-image'>
+            <img src='images/desserts.jpg' alt="Cake">
           </div>
           <div class='smashed-it'>
             <h1>SMASHED IT!</h1>

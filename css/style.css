@@ -22,6 +22,17 @@ p {
   font-family: 'Dosis', sans-serif;
 }
 
+label {
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  font-size: 25px;
+}
+
+input {
+  width: 150px;
+  height: 30px;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -247,11 +258,17 @@ nav li a:hover {
     min-width: 170px;
   }
 
- /*SLIDEY SUGGEST BUTTON*/
+ /*SUGGEST BUTTON*/
+.suggest-panel h2 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
 .suggest-panel {
-  background-color: rgba(0,0,0,0.8);
-  width: 50%;
-  height: 70%;
+  background-color: rgba(0,0,0,0.9);
+  width: 40%;
+  height: 50%;
   position: absolute;
   top: 150px;
   right: -50%;
@@ -261,6 +278,7 @@ nav li a:hover {
 .suggest-panel.open {
   right: 0;
   transition:all 1s;
+  padding: 30 20 20 50;
 }
 
 .suggest-panel.close {
@@ -268,7 +286,17 @@ nav li a:hover {
   transition:all 1s;
 }
 
+div .suggest-panel {
+  padding-bottom: 30px;
+
+}
+
 /*FOOD PAGES CSS*/
+.title h1{
+  font-size: 50px;
+  text-align: center;
+}
+
 .food-content {
   display: flex;
   flex-direction: column;
@@ -280,6 +308,7 @@ nav li a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 70px;
 }
 
 .post-wrapper {
