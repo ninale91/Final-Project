@@ -13,4 +13,5 @@ function completedFood() {
   $('.post-wrapper').toggleClass('eaten');
   $('.food-image').toggleClass('eaten');
   $('.resturant-location').toggleClass('eaten');
+  $('.smashed-it').toggleClass('eaten');
 }
