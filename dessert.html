@@ -33,12 +33,32 @@
               <li><a href="dessert.html">Dessert</a></li>
             </ul>
           </li>
-          <li><a href="suggest.html">Suggest</a></li>
+          <li class='suggest-button'>Suggest</li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <!-- Food Posts -->
+    <!-- SUGGEST BOX -->
+    <div class='suggest-panel'>
+      <form class='suggest-form' action='' enctype='multipart/form-data' method='POST'>
+            <label>
+              First Name
+              <input id='first_name' type='text' placeholder='First Name' name='first_name'/>
+              <span class='error-msg'> - First name invalid</span>
+            </label>
+            <label>
+              Last Name
+              <input id='last_name' type='text' placeholder='Last Name' name='last_name'/>
+              <span class='error-msg'> - Last name invalid</span>
+            </label>
+            <label>
+              Age
+              <input id='age' type='text' placeholder="Age" name='age'/>
+            </label>
+            <input name='submit' type='submit'/>
+      </form>
+    </div>
+    <!-- FOOD POSTS -->
     <div class='food-content'>
       <div class='wrapper'>
         <div class='post-wrapper'>

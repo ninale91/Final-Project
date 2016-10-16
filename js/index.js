@@ -3,6 +3,7 @@ $(document).ready(start);
 function start(){
     $('.dropdown' ).hover(openMenu);
     $('.button-done').click(completedFood);
+    $('.suggest-button').click(slideMenuToggle);
 }
 
 function openMenu() {
@@ -14,4 +15,8 @@ function completedFood() {
   $('.food-image').toggleClass('eaten');
   $('.resturant-location').toggleClass('eaten');
   $('.smashed-it').toggleClass('eaten');
+}
+
+function slideMenuToggle(){
+  $('.suggest-panel').toggleClass('open');
 }

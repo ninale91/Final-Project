@@ -46,17 +46,6 @@ ul {
   align-items: center;
 }
 
-li a {
-  text-decoration: none;
-  color: #9E42B5;
-  padding-left: 20px;
-  padding-right: 20px;
-  border: 2px solid #9E42B5;
-  border-radius: 10px;
-  margin-left: 10px;
-  font-size: 25px;
-}
-
 .logo a {
   text-decoration: none;
   color: black;
@@ -150,17 +139,7 @@ i {
   padding-left: 30px;
 }
 
-nav li a:hover {
-  background-color: #9E42B5;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  border: 2px solid  #9E42B5;
-  border-radius: 10px;
-  margin-left: 10px;
-  font-size: 30px;
-  min-width: 150px;
-}
+
 /*HOVER MENU http://callmenick.com/post/slide-down-menu-with-jquery-and-css*/
 nav ul {
     list-style-type:none;
@@ -195,6 +174,45 @@ ul.sub-menu {
     display:none;
 }
 
+nav{
+  text-align: center;
+}
+
+nav li a{
+  text-decoration: none;
+  color: #9E42B5;
+}
+
+nav li {
+  text-decoration: none;
+  color: #9E42B5;
+  border: 2px solid #9E42B5;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 25px;
+  min-width: 170px;
+}
+
+nav li:hover {
+  background-color: #9E42B5;
+  color: white;
+  border: 2px solid  #9E42B5;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  min-width: 170px;
+}
+
+nav li a:hover {
+  background-color: #9E42B5;
+  color: white;
+  border: 2px solid  #9E42B5;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  min-width: 170px;
+}
+
 .sub-menu {
   display: flex;
   flex-direction: column;
@@ -211,32 +229,26 @@ ul.sub-menu {
   min-width: 170px;
 }
 
-.sub-menu li a {
+.sub-menu li a{
   background-color: #9E42B5;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
   border: 2px solid  #9E42B5;
-  border-radius: 10px;
   margin-left: 10px;
   font-size: 30px;
-  min-width: 150px;
+  min-width: 170px;
 }
 
   .sub-menu li a:hover {
     background-color: rgba(158, 66, 181, .8);
     color: black;
-    padding-left: 20px;
-    padding-right: 20px;
     border: 2px solid  #9E42B5;
-    border-radius: 10px;
     margin-left: 10px;
     font-size: 30px;
-    min-width: 150px;
+    min-width: 170px;
   }
 
-/* SLIDEY CONTACT US BUTTON
-.contact {
+ /*SLIDEY SUGGEST BUTTON*/
+.suggest-panel {
   background-color: rgba(0,0,0,0.5);
   width: 50%;
   height: 100%;
@@ -244,12 +256,13 @@ ul.sub-menu {
   top: 0;
   right: -49%;
   transition:all 1s;
+}
 
-.contact.open {
+.suggest-panel.open {
   right: 0;
   transition:all 1s;
 }
-*/
+
 
 /*FOOD PAGES CSS*/
 .food-content {
@@ -266,7 +279,6 @@ ul.sub-menu {
 }
 
 .post-wrapper {
-  /*padding: 10 60 60 60;*/
   min-width: 600px;
   min-height: 550px;
   margin-left: 20px;
@@ -278,7 +290,6 @@ ul.sub-menu {
 }
 
 .post-wrapper.eaten {
-  /*padding: 10 60 60 60;*/
   min-width: 600px;
   min-height: 550px;
   margin-left: 20px;
