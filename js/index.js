@@ -4,6 +4,7 @@ function start(){
     $('.dropdown' ).hover(openMenu);
     $('.button-done').click(completedFood);
     $('.suggest-button').click(slideMenuToggle);
+    $('.close-suggest').click(closeSuggest);
 }
 
 function openMenu() {
