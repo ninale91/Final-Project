@@ -458,6 +458,8 @@ button .post-wrapper{
     padding-top: 0px;
   }
 
+/*SUGGESTION PANEL MOBILE*/
+
   .suggest-panel {
     background-color: rgba(0,0,0,0.9);
     width: 80%;
@@ -480,7 +482,7 @@ button .post-wrapper{
     width: 90px;
     height: 20px;
   }
-
+/*NAV MOBILE*/
   nav {
     display: none;
   }
@@ -531,5 +533,63 @@ button .post-wrapper{
     flex-direction: row;
     justify-content: space-between;
   }
+
+/*FOOD PAGES MOBILE*/
+.title h1{
+  font-size: 40px;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.post-wrapper {
+  width: 100%;
+  min-height: 550px;
+  margin-bottom: 20px;
+}
+
+.post-wrapper.eaten {
+  width: 100%;
+}
+
+.food-image.eaten {
+  display: none;
+}
+
+
+
+.smashed-it{
+  display: none;
+}
+
+.smashed-it.eaten {
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+h2{
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.resturant-name {
+    text-align: center;
+}
+
+.resturant-location {
+  margin-left: 10%;
+}
+
+button .post-wrapper{
+  padding-bottom: 20px;
+  font-size: 30px;
+}
 
 }
