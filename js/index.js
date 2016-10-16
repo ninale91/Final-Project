@@ -1,9 +1,9 @@
 $(document).ready(start);
 
 function start(){
-  $('.contact').click(slideMenuToggle);
+    $( '.dropdown' ).hover(openMenu);
 }
 
-function slideMenuToggle(){
-  $('.contact').toggleClass('open');
+function openMenu() {
+  $('.sub-menu').slideToggle();
 }

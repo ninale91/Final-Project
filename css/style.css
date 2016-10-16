@@ -48,11 +48,9 @@ ul {
 
 li a {
   text-decoration: none;
-  /*color: #00CED1;*/
   color: #9E42B5;
   padding-left: 20px;
   padding-right: 20px;
-  /*border: 2px solid  #00CED1;*/
   border: 2px solid #9E42B5;
   border-radius: 10px;
   margin-left: 10px;
@@ -162,7 +160,44 @@ nav li a:hover {
   margin-left: 10px;
   font-size: 30px;
 }
+/*NEW ADDED http://callmenick.com/post/slide-down-menu-with-jquery-and-css*/
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav ul li {
+    display:inline-block;
+    position:relative;
+}
 
+/* sub navigation */
+nav li ul {
+    position:absolute;
+    left:0;
+    top:40px; /* make this equal to the line-height of the links (specified below) */
+    width:200px;
+}
+nav li li {
+    position:relative;
+    margin:0;
+    display:block;
+}
+nav li li ul {
+    position:absolute;
+    top:0;
+    left:200px; /* make this equal to the width of the sub nav above */
+    margin:0;
+}
+
+ul.sub-menu {
+    display:none;
+}
+
+.dropdown {
+display: flex;
+flex-direction: column;
+ }
 /* SLIDEY CONTACT US BUTTON
 .contact {
   background-color: rgba(0,0,0,0.5);
@@ -222,7 +257,6 @@ h2{
 .resturant-name{
     text-align: center;
 }
-
 button .post-wrapper{
   padding-left: 15px;
   padding-right: 15px;
