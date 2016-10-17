@@ -13,10 +13,11 @@ function openMenu() {
 }
 
 function completedFood() {
-  $('.post-wrapper').toggleClass('eaten');
-  $('.food-image').toggleClass('eaten');
-  $('.resturant-location').toggleClass('eaten');
-  $('.smashed-it').toggleClass('eaten');
+  var wrapper = $(this).closest('.post-wrapper');
+  wrapper.toggleClass('eaten');
+  wrapper.find('.food-image').toggleClass('eaten');
+  wrapper.find('.resturant-location').toggleClass('eaten');
+  wrapper.find('.smashed-it').toggleClass('eaten');
 }
 
 function slideMenuToggle(){
